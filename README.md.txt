@@ -1,24 +1,36 @@
-# HR Attrition Analytics Project
+# HR Attrition Prediction System
 
-## Overview
-This project analyzes employee attrition and predicts whether an employee is likely to leave the company.
+## Project Overview
+
+Predict employee attrition using Machine Learning.
 
 ## Technologies Used
+
 - Python
 - Pandas
 - NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+- Scikit-Learn
+- Streamlit
 - SQLite
+- Plotly
 
-## Workflow
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis
-4. Feature Engineering
-5. Model Building
-6. Evaluation
+## Machine Learning Models
 
-## Results
-Achieved approximately 80% accuracy in employee attrition prediction.
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- SVC (Best Accuracy: 88%)
+
+## Dashboard Features
+
+- Employee Attrition Prediction
+- Interactive Visualizations
+- KPI Metrics
+- Feature Importance Analysis
+- Prediction History
+
+## How to Run
+
+pip install -r requirements.txt
+
+streamlit run app.py
